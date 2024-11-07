@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: none;
+    list-style: none;
+ 
+}
+
+header{
+    position:absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10%;
+}
+.Logo{
+    position: absolute;
+    top: 1;
+    z-index: 100;
+    
+    margin-left:-100px;
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+.menu{
+    display: flex;
+    
+}
+.menu a{
+    display: inline-block;
+    color: rgb(246, 240, 240);
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    
+    padding: 20px 40px;
+    transition: all .42s ease;
+
+}
+.menu a:hover{
+    transform: scale(1.1);
+    color: rgb(15, 14, 14);
+}
+.main-home{
+    width: 100%;
+    height: 130vh;
+    background-image: url('imgee/bgimage.jpg');
+    background-position: center;
+    background-size: 50%;
+    display: grid;
+    background-repeat: no-repeat;
+    background-color: rgb(97, 97, 97);
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 450;
+    transition: all .50s easess;
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: rgb(247, 9, 9);
+}
+.text{
+    margin-left: 40px;
+}
+.text h5{
+    color: rgb(2, 2, 2);
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.text h1{
+    color: rgb(3, 3, 3);
+    font-size: 50px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+    vertical-align: middle;
+}
+.text p{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.main-btn{
+    display: inline-block;
+    color: rgb(6, 6, 6);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid rgb(53, 52, 52);
+    padding: 12px 25px;
+    transition: all .42s ease;
+}
+.main-btn:hover{
+        transform: scale(1.1);
+        color: rgb(135, 133, 133);
+        background-color: rgb(91, 91, 92);
+}
+.main-btn:hover{
+    vertical-align: middle;
+}
+.down-arrow{
+    position: absolute;
+    top: 90%;
+    right: 11%;
+}
+.down i{
+    font-size: 30px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 12px 12px;
+}
+.down i:hover{
+    background-color: black;
+    color: azure;
+    transition: all .42s ease;
+}
+
+.trend-product{
+    background-color: rgb(95, 94, 94);
+}
+
+.row{
+    background-color: rgb(77, 77, 77);
+    width:250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0, .1);
+    transition: 1s;
+
+ }
+ .row img{
+    background-color: rgb(237, 234, 234);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ .row:hover{
+     transform: scale(1.1);
+     z-index: 2;
+ }
+.center-text{
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap:3rem;
+}
+.like-icon{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+.like-icon:hover{
+    color: red;
+}
+
+.ratting:hover{
+    color: aliceblue;
+    font-size: 18px;
+}
+
